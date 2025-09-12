@@ -9,6 +9,7 @@ body{
   text-align: center;
   display: flex; 
 }
+
 .weather-container{
   background: linear-gradient(rgb(220, 229, 50),rgb(164, 246, 221));
   border-style: solid;
@@ -17,9 +18,9 @@ body{
   border-radius: 30px;
   position: relative;
   left: 500px;
-  
   box-shadow: 5px 5px 5px rgb(14, 142, 142);
 }
+
 input{
   border-radius: 5px;
   color: black;
@@ -27,12 +28,15 @@ input{
   height: 2.3em;
   margin-right: 8px;
 }
+
 p{
   font-size: 20px;
 }
+
 .temp{
   font-size: 50px;
 }
+
 .hum
 {
   float:left;
@@ -46,21 +50,23 @@ p{
   font-size: large;
   font-weight: bold;
 }
+
 #img1{
   height: 40px;
   width: 40px;
   float: left;
 }
+
 #img3{
   height: 60px;
   width: 50px;
   margin: 5px;
 }
+
 #img2{
   height: 30px;
   width: 30px;
 }
-
 
 #su{
   position: absolute;

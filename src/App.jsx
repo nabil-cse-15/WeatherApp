@@ -41,6 +41,7 @@ function App() {
         setSuggetion([])
       })
   }
+
   return (
     <div className='weather-container'>
       <p id='box1'>My Weather App</p>
@@ -67,6 +68,7 @@ function App() {
       }
       <br />
       <br />
+      
       {weatherinfo && (
         <div>
           <h2>{weatherinfo.name}</h2>
