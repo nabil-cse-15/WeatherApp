@@ -1,7 +1,4 @@
 import { useState } from 'react'
-import wind from './assets/wind.png'
-import temp from './assets/temp.jpg'
-import humidity from './assets/humidity.png'
 import './App.css'
 
 function App() {
@@ -72,7 +69,7 @@ function App() {
           <h2>{weatherinfo.name}</h2>
           <img src={`https://openweathermap.org/img/wn/${weatherinfo.icon}@2x.png`} alt='Weather icon' />
           <p>{weatherinfo.description}</p>
-          <p className='temp'><img id='img3' src={temp}/>{Math.floor(weatherinfo.temparature)}°C</p>
+          <p className='temp'><img id='img3' src='temp.jpg'/>{Math.floor(weatherinfo.temparature)}°C</p>
           <p className='hum'><img id='img1' src= {humidity}/> {weatherinfo.humidity1}%</p>
           <p className='hum0'><img id='img2' src= {wind}/> {weatherinfo.wind} km/h</p>
         </div>
