@@ -13,7 +13,7 @@ body{
 .weather-container{
   background: linear-gradient(rgb(220, 229, 50),rgb(164, 246, 221));
   border-style: solid;
-  padding: 60px;
+  padding: 40px;
 
   border-radius: 30px;
   position: relative;

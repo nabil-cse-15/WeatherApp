@@ -68,7 +68,7 @@ function App() {
       }
       <br />
       <br />
-      
+
       {weatherinfo && (
         <div>
           <h2>{weatherinfo.name}</h2>
@@ -76,7 +76,7 @@ function App() {
           <p>{weatherinfo.description}</p>
           <p className='temp'><img id='img3' src={temp}/>{Math.floor(weatherinfo.temparature)}°C</p>
           <p className='hum'><img id='img1' src= {humidity}/> {weatherinfo.humidity1}%</p>
-          <p className='hum0'><img id='img2' src= {wind}/> {weatherinfo.wind} km/h</p>
+          <p className='hum0'><img id='img2' src= {wind}/> {weatherinfo.wind}km/h</p>
         </div>
       )}
     </div>
