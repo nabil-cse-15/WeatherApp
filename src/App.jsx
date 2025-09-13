@@ -59,7 +59,7 @@ function App() {
                 setCity(s.name)
                 getWeather(s.name)
               }}>
-                {s.name},{s.country}
+                {s.name} , {s.state} , {s.country}
               </li>
             ))}
           </ul>
